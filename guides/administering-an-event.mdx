@@ -1,0 +1,111 @@
+---
+title: "Administering an Event"
+description: "Manage signups, shifts, and sharing for a live event"
+---
+
+Once an event is [created and published](/guides/creating-an-event), most of
+your work happens on that event's admin page: watching shifts fill up,
+helping volunteers who couldn't sign up themselves, and making corrections.
+
+## Monitoring signups
+
+Each shift on the event page shows its volunteers and a `filled / capacity`
+count (e.g. `3 / 4`). Volunteers who signed up themselves appear with their
+name and email; anyone you added manually is marked **added manually**.
+
+## Adding a volunteer manually
+
+Useful when someone tells you in person or by phone instead of using the
+sign-up page.
+
+1. Open the shift and expand **+ Add volunteer**.
+2. Enter their name, email, and (optionally) email language and team.
+3. Submit — they receive the same confirmation email as a self-service
+   signup, including their manage link.
+
+## Moving a signup to another shift
+
+If a volunteer needs to swap shifts, use **Move to…** next to their name,
+pick the target shift, and confirm with **Move**. They're notified by email
+of the change.
+
+## Assigning a team
+
+If your club uses teams, set or change a signup's team from the **Team**
+dropdown next to their name, then **Save team**. This only affects
+reporting (see [Statistics](#statistics)) — it doesn't require the
+volunteer to take any action.
+
+## Removing a signup
+
+Click **Remove** next to a volunteer, confirm, and their slot opens back up.
+They're notified by email that their signup was removed.
+
+<Warning>
+  Volunteers can also cancel their own signup or erase their data at any
+  time via the manage link in their confirmation email — you don't need to
+  do this for them unless they ask you to.
+</Warning>
+
+## Editing the event or its shifts
+
+- **Event details** (title, description, location, reminder timing,
+  retention window) live under **Settings** on the event page.
+- **Shifts** are edited individually — expand a shift's **Edit** section to
+  change its task, capacity, time window, location, or notes.
+- **Deleting a shift** removes it and all of its signups; deleting the whole
+  **event** removes every shift and signup in it. Both require confirmation
+  and can't be undone.
+
+## Publishing and unpublishing
+
+Use **Publish** / **Revert to draft** at the top of the event page to
+control whether volunteers can see and sign up for it. A draft event still
+shows a hint that it isn't public yet, so you don't forget to publish it.
+
+## Sharing links
+
+- **Public link** — the event's main sign-up page, shown via **Copy link**
+  or **Public link ↗**.
+- **Team links** — if your club has teams, each one gets its own link (under
+  **Team links** on the event page) that preselects that team, though
+  volunteers can still change it.
+
+## Statistics
+
+The event's **Statistics** page (linked from the event header) shows:
+
+- **Unfilled shifts** — everything still short of its capacity.
+- **Shifts per team** — a breakdown by team, if your club uses them.
+- **Volunteer leaderboard** — who's signed up for the most shifts, counted
+  per email address. Signups whose personal data has already been
+  anonymized (past the event's retention window) are counted but not
+  listed by name — the leaderboard only ever shows data that still exists.
+
+Your club also has a club-wide **Stats** page (top nav) listing every
+upcoming shift with open slots across all events, most urgent first.
+
+## Club-level administration
+
+A few things apply to the whole club rather than a single event — worth
+knowing about even though they live outside the event page:
+
+### Teams
+
+Manage your club's teams/departments under **Settings → Teams**. Teams are
+just labels for reporting and pre-filled links; deleting a team keeps its
+past signups, only dropping the team attribution.
+
+### Inviting other admins
+
+Under **Admins** in the top nav, invite a co-admin by email — they'll get an
+invitation email to set up access. You can also see pending invitations and
+remove admins there. A club must always keep at least one admin, so removing
+the last one is blocked.
+
+### Club settings
+
+Under **Settings**, you can update the club name, contact email (used on
+the privacy notice and as the reply address for club emails), and logo.
+Custom accent colors are a paid-plan feature; without it, the default
+ShowUpFor color applies.

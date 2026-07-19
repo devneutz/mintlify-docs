@@ -1,97 +1,64 @@
 ---
 title: "Introduction"
-description: "Welcome to the new home for your documentation"
+description: "What ShowUpFor is and how club admins use it"
 ---
 
-## Setting up
+ShowUpFor is volunteer shift planning for sports clubs. Instead of a paper
+sign-up sheet pinned to the clubhouse wall, your club gets a shareable web
+page where volunteers pick a shift with just their name and email — no
+account needed.
 
-Get your documentation site up and running in minutes.
+This documentation is for **club admins**: the people who create events,
+open shifts, and keep track of who's signed up.
 
-<Card
-  title="Start here"
-  icon="rocket"
-  href="/quickstart"
-  horizontal
->
-  Follow our three step quickstart guide.
-</Card>
+## How it fits together
 
-## Make it yours
+<CardGroup cols={2}>
+  <Card title="Club" icon="shield-halved">
+    Your club's own space — its admins, events, and branding, kept separate
+    from every other club using ShowUpFor.
+  </Card>
+  <Card title="Event" icon="calendar">
+    A club occasion that needs helpers, like a tournament or club festival.
+    Gets its own public sign-up page once you publish it.
+  </Card>
+  <Card title="Shift" icon="clock">
+    A role within an event, with a time window and a number of open slots —
+    for example "Grill, 11:00–14:00, 2 people".
+  </Card>
+  <Card title="Signup" icon="user-check">
+    One volunteer committing to one shift. Volunteers manage their own
+    signup later through a link in their confirmation email.
+  </Card>
+</CardGroup>
 
-Design a docs site that looks great and empowers your users.
+## Where to start
 
 <Columns cols={2}>
   <Card
-    title="Edit locally"
-    icon="pen-to-square"
-    href="/development"
+    title="Create an event"
+    icon="calendar-plus"
+    href="/guides/creating-an-event"
   >
-    Edit your docs locally and preview them in real time.
+    Set up an event, add shifts, and publish it so volunteers can sign up.
   </Card>
   <Card
-    title="Customize your site"
-    icon="palette"
-    href="/essentials/settings"
+    title="Administer an event"
+    icon="sliders"
+    href="/guides/administering-an-event"
   >
-    Customize the design and colors of your site to match your brand.
-  </Card>
-    <Card
-    title="Set up navigation"
-    icon="map"
-    href="/essentials/navigation"
-  >
-    Organize your docs to help users find what they need and succeed with your product.
-  </Card>
-  <Card
-    title="API documentation"
-    icon="terminal"
-    href="/api-reference/introduction"
-  >
-    Auto-generate API documentation from OpenAPI specifications.
+    Manage signups, edit shifts, share links, and keep an eye on open slots.
   </Card>
 </Columns>
 
-## Create beautiful pages
+## Signing in
 
-Everything you need to create world-class documentation.
+Your club admin area lives at:
 
-<Columns cols={2}>
-  <Card
-    title="Write with MDX"
-    icon="pen-fancy"
-    href="/essentials/markdown"
-  >
-    Use MDX to style your docs pages.
-  </Card>
-  <Card
-    title="Code samples"
-    icon="code"
-    href="/essentials/code"
-  >
-    Add sample code to demonstrate how to use your product.
-  </Card>
-  <Card
-    title="Images"
-    icon="image"
-    href="/essentials/images"
-  >
-    Display images and other media.
-  </Card>
-  <Card
-    title="Reusable snippets"
-    icon="recycle"
-    href="/essentials/reusable-snippets"
-  >
-    Write once and reuse across your docs.
-  </Card>
-</Columns>
+```
+/{locale}/verein/{your-club-slug}/admin
+```
 
-## Need inspiration?
-
-<Card
-  title="See complete examples"
-  icon="stars"
-  href="https://mintlify.com/customers"
->
-  Browse our showcase of exceptional documentation sites.
-</Card>
+on your club's ShowUpFor deployment (for example `.../verein/fc-alpha/admin`).
+If you don't have access yet, ask an existing admin of your club to invite
+you — see [Inviting other admins](/guides/administering-an-event#inviting-other-admins).

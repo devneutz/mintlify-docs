@@ -1,16 +1,11 @@
-# Mintlify Starter Kit
+# ShowUpFor Docs
 
-Use the starter kit to get your docs deployed and ready to customize.
+User documentation for ShowUpFor, built with [Mintlify](https://mintlify.com).
+Covers the club-admin workflows: creating events, managing shifts and
+signups, and club administration.
 
-Click the green **Use this template** button at the top of this repo to copy the Mintlify starter kit. The starter kit contains examples with
-
-- Guide pages
-- Navigation
-- Customizations
-- API reference pages
-- Use of popular components
-
-**[Follow the full quickstart guide](https://starter.mintlify.com/quickstart)**
+Source lives in `index.mdx` (introduction) and `guides/` (how-to articles);
+site structure and nav are defined in `docs.json`.
 
 ## Development
 
