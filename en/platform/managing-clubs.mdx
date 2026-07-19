@@ -1,0 +1,56 @@
+---
+title: "Managing Clubs (Platform Operators)"
+description: "Create, invite admins for, and delete clubs on your deployment"
+---
+
+<Note>
+  This page is for **platform operators**: the people running the whole
+  ShowUpFor deployment, not a single club. If you're a club admin, see the
+  **Guides** tab instead.
+</Note>
+
+Operators are a separate population from club admins — being an operator on
+the platform gives you no access to any club's admin area, and vice versa.
+
+## Signing in
+
+Operators sign in at `/{locale}/platform/login`. Access is membership in a
+dedicated operator group on the deployment — ask an existing operator to
+add you if you don't have it yet.
+
+## Viewing clubs
+
+The **Clubs** page lists every club on the deployment, with its admin
+count, event count, and creation date. Click a club to open its detail
+page.
+
+## Creating a club
+
+From **Clubs**, click **New club** and fill in:
+
+| Field | Notes |
+| --- | --- |
+| Club name | Shown throughout the club's pages. |
+| Club identifier (URL) | Lowercase letters, digits and hyphens only, e.g. `fc-muster`. Part of every link the club will ever have — **cannot be changed later**. |
+| Club contact email | The club's own contact address (privacy notice, reply-to). |
+| First admin email | Who gets invited to administer the new club. |
+
+Submitting creates the club and sends the first admin an invitation email
+immediately.
+
+## Managing an existing club
+
+A club's detail page (under **Clubs**) shows its admins and any pending
+invitations, and lets you:
+
+- **Resend an invitation** if the first admin hasn't accepted yet.
+- **Delete the club** — permanently removes it along with every event,
+  shift, and signup it has. This can't be undone and requires confirming
+  the club's name.
+
+## What operators don't do
+
+Operators don't manage a club's events, shifts, or day-to-day settings —
+that's the club admin's job, covered in the **Guides** tab. An operator can
+resend a first-admin invite or delete a club outright, but has no way to
+edit a club's content directly.

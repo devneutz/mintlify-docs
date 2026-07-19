@@ -26,7 +26,34 @@
                 "group": "Vereins-Admin-Leitfäden",
                 "pages": [
                   "de/guides/creating-an-event",
-                  "de/guides/administering-an-event"
+                  "de/guides/administering-an-event",
+                  "de/guides/club-settings-and-branding",
+                  "de/guides/managing-teams",
+                  "de/guides/managing-admins",
+                  "de/guides/billing-and-plans"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Für Helfer:innen",
+            "groups": [
+              {
+                "group": "Helfer-Leitfäden",
+                "pages": [
+                  "de/volunteers/signing-up-for-a-shift",
+                  "de/volunteers/managing-your-signup"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Für Plattform-Betreiber:innen",
+            "groups": [
+              {
+                "group": "Betreiber-Leitfäden",
+                "pages": [
+                  "de/platform/managing-clubs"
                 ]
               }
             ]
@@ -49,7 +76,34 @@
                 "group": "Club Admin Guides",
                 "pages": [
                   "en/guides/creating-an-event",
-                  "en/guides/administering-an-event"
+                  "en/guides/administering-an-event",
+                  "en/guides/club-settings-and-branding",
+                  "en/guides/managing-teams",
+                  "en/guides/managing-admins",
+                  "en/guides/billing-and-plans"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "For Volunteers",
+            "groups": [
+              {
+                "group": "Volunteer Guides",
+                "pages": [
+                  "en/volunteers/signing-up-for-a-shift",
+                  "en/volunteers/managing-your-signup"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Platform Operators",
+            "groups": [
+              {
+                "group": "Operator Guides",
+                "pages": [
+                  "en/platform/managing-clubs"
                 ]
               }
             ]

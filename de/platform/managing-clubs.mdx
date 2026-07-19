@@ -1,0 +1,60 @@
+---
+title: "Vereine verwalten (Plattform-Betreiber:innen)"
+description: "Vereine anlegen, deren Admins einladen und Vereine löschen"
+---
+
+<Note>
+  Diese Seite richtet sich an **Plattform-Betreiber:innen**: die Personen,
+  die das gesamte ShowUpFor-Deployment betreiben, nicht einen einzelnen
+  Verein. Bist du Vereinsadmin, nutze stattdessen den Tab **Leitfäden**.
+</Note>
+
+Betreiber:innen sind eine eigene Gruppe, getrennt von Vereinsadmins — als
+Betreiber:in hast du keinen Zugriff auf den Admin-Bereich eines einzelnen
+Vereins, und umgekehrt.
+
+## Anmelden
+
+Betreiber:innen melden sich unter `/{locale}/platform/login` an. Der Zugang
+setzt eine Mitgliedschaft in einer eigenen Betreiber-Gruppe des Deployments
+voraus — bitte eine:n bestehende:n Betreiber:in, dich hinzuzufügen, falls du
+noch keinen Zugang hast.
+
+## Vereine ansehen
+
+Die Seite **Vereine** listet alle Vereine des Deployments mit Anzahl Admins,
+Anzahl Anlässe und Erstellungsdatum. Klick auf einen Verein öffnet dessen
+Detailseite.
+
+## Einen Verein anlegen
+
+Klicke auf **Vereine** auf **Neuer Verein** und fülle aus:
+
+| Feld | Hinweis |
+| --- | --- |
+| Vereinsname | Erscheint auf allen Seiten des Vereins. |
+| Vereins-Kürzel (URL) | Nur Kleinbuchstaben, Ziffern und Bindestriche, z. B. `fc-muster`. Teil jedes künftigen Links des Vereins — **kann später nicht geändert werden**. |
+| Kontakt-E-Mail des Vereins | Die eigene Kontaktadresse des Vereins (Datenschutzhinweis, Antwortadresse). |
+| E-Mail der ersten Admin-Person | Wer zur Verwaltung des neuen Vereins eingeladen wird. |
+
+Beim Absenden wird der Verein angelegt und die erste Admin-Person erhält
+sofort eine Einladungs-E-Mail.
+
+## Einen bestehenden Verein verwalten
+
+Die Detailseite eines Vereins (unter **Vereine**) zeigt dessen Admins und
+offene Einladungen und erlaubt:
+
+- **Eine Einladung erneut senden**, falls die erste Admin-Person noch nicht
+  angenommen hat.
+- **Den Verein löschen** — entfernt ihn dauerhaft samt jedem Anlass, jeder
+  Schicht und jeder Anmeldung. Das lässt sich nicht rückgängig machen und
+  erfordert die Bestätigung des Vereinsnamens.
+
+## Was Betreiber:innen nicht tun
+
+Betreiber:innen verwalten weder Anlässe noch Schichten oder die laufenden
+Einstellungen eines Vereins — das ist Aufgabe der Vereinsadmins, siehe Tab
+**Leitfäden**. Eine Betreiber-Person kann eine erste Einladung erneut senden
+oder einen Verein vollständig löschen, hat aber keine Möglichkeit, dessen
+Inhalte direkt zu bearbeiten.
