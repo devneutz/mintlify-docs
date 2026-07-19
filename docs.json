@@ -9,21 +9,49 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "tabs": [
+    "languages": [
       {
-        "tab": "Guides",
-        "groups": [
+        "language": "de",
+        "tabs": [
           {
-            "group": "Getting Started",
-            "pages": [
-              "index"
+            "tab": "Leitfäden",
+            "groups": [
+              {
+                "group": "Erste Schritte",
+                "pages": [
+                  "de/index"
+                ]
+              },
+              {
+                "group": "Vereins-Admin-Leitfäden",
+                "pages": [
+                  "de/guides/creating-an-event",
+                  "de/guides/administering-an-event"
+                ]
+              }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "language": "en",
+        "tabs": [
           {
-            "group": "Club Admin Guides",
-            "pages": [
-              "guides/creating-an-event",
-              "guides/administering-an-event"
+            "tab": "Guides",
+            "groups": [
+              {
+                "group": "Getting Started",
+                "pages": [
+                  "en/index"
+                ]
+              },
+              {
+                "group": "Club Admin Guides",
+                "pages": [
+                  "en/guides/creating-an-event",
+                  "en/guides/administering-an-event"
+                ]
+              }
             ]
           }
         ]
